@@ -22,13 +22,13 @@
             $mail->isSMTP();                                            //Enviamos usando el protocolo SMTP
             $mail->Host       = 'smtp.gmail.com';                       //Utilizamos el servidor que nos ayudara a enviar el email
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'correop421@gmail.com';                 //SMTP username (Correo del servicio)
-            $mail->Password   = 'pruebas13';                            //SMTP password (Contraseña)
+            $mail->Username   = 'example@example.com';                 //SMTP username (Correo del servicio)
+            $mail->Password   = 'example_password';                            //SMTP password (Contraseña)
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom('correop421@gmail.com', 'FastComputer');
+            $mail->setFrom('example@example.com', 'FastComputer');
             $mail->addAddress($correo, 'Joe User');             //A quien se lo voy a enviar
             //$mail->addAddress('ellen@example.com');                    //Todos los que siguen son para mandarle a otra persona mas o para generar una copia de lo que envio
             //$mail->addReplyTo('info@example.com', 'Information');
