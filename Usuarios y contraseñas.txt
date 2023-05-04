@@ -1,0 +1,19 @@
+====================================
+======USUARIOS ADMINISTRATIVOS======
+====================================
+
+Usuario: GDS
+Contraseña: 1234
+
+Usuario: DMU
+Contraseña: dani13
+
+====================================
+===========USUARIO NORMAL===========
+====================================
+
+Usuario: GDS
+Contraseña: 1234
+
+Usuario: JSC
+Contraseña: 1234
